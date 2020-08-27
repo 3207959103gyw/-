@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+.box {
+    width: 570px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 100px auto;
+    height: 270px;
+    position: relative;
+}
+
+.box .left {
+    float: left;
+}
+
+.box .left .girlImg {
+    position: relative;
+    width: 200px;
+    height: 200px
+}
+
+.box .left .girlImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.box .left .girlImg span {
+    /* display: none; */
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 0, 0.3)
+}
+
+.box .left ol {
+    width: 220px;
+    margin-top: 20px;
+}
+
+.box .left ol li {
+    float: left;
+    margin-right: 8px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.box .left .active {
+    border: 2px solid #f40;
+}
+
+.box .left ol li img {
+    width: 40px;
+    display: block;
+}
+
+.box .right {
+    float: right;
+}
+
+.right h3 {
+    height: 40px;
+}
+
+.price {
+    height: 50px;
+    font-size: 30px;
+    color: red;
+    font-weight: 800;
+}
+
+.right ul {
+    overflow: hidden;
+    margin: 20px 0
+}
+
+.right ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.box .right .active {
+    border: 2px solid #f40;
+}
+
+.changeNum {
+    position: relative;
+    margin: 20px 0
+}
+
+.changeNum input {
+    width: 40px;
+    height: 41px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}
+
+.changeNum button {
+    height: 22px;
+    width: 20px;
+    background: none;
+    border: 1px solid #ccc;
+    position: absolute;
+}
+
+.changeNum .addBtn {
+    left: 41px;
+    top: 0px;
+}
+
+.changeNum .subBtn {
+    left: 41px;
+    top: 21px;
+}
+
+.okBtn {
+    height: 30px;
+    width: 100px
+}
+
+.bigBox {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 230px;
+    top: 20px;
+    /* display: none; */
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bigBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.shopCart {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    color: red;
+}
+
+.shopNum {
+    width: 60px;
+    height: 25px;
+    background: deeppink;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.price .ab {
+    display: block;
+}
+
+.price em {
+    display: none;
+}
+
+.fly {
+    width: 20px;
+    height: 20px;
+    background-color: #f40;
+    position: absolute;
+    display: none;
+}
